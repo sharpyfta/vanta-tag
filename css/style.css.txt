@@ -1,0 +1,160 @@
+/* Reset & Basic */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6f42c1, #a5f3fc);
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+.discord-btn {
+    background: #7289da;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.discord-btn:hover {
+    background: #5b6eae;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.btn-main {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-main:hover {
+    background: #ff4c4c;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.feature {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+/* Staff Section */
+.staff {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.staff-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.staff-member {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 20px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.staff-member img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.staff-member:hover {
+    transform: scale(1.05);
+}
+
+/* Rules Section */
+.rules {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.rules ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.rules li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.4);
+    margin-top: 50px;
+}

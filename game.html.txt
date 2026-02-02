@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta Tag | Game Info</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Vanta Tag</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="game.html">Game Info</a>
+            <a href="staff.html">Meet the Staff</a>
+            <a href="rules.html">Rules / Policy</a>
+            <a href="https://discord.gg/vantatag" target="_blank" class="discord-btn">Join Discord</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-info">
+            <h1>About Vanta Tag</h1>
+            <p>Vanta Tag is a fast-paced, fun tag game where you can join friends, climb leaderboards, and enjoy unique features. Our team constantly updates the game with new mechanics and community events.</p>
+            <ul>
+                <li>Exciting gameplay mechanics</li>
+                <li>Custom maps and challenges</li>
+                <li>Active community events</li>
+                <li>Meta Store support coming soon</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vanta Tag | Made by Rewind</p>
+    </footer>
+</body>
+</html>

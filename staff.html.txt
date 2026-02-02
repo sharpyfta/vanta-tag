@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta Tag | Staff</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Vanta Tag</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="game.html">Game Info</a>
+            <a href="staff.html">Meet the Staff</a>
+            <a href="rules.html">Rules / Policy</a>
+            <a href="https://discord.gg/vantatag" target="_blank" class="discord-btn">Join Discord</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="staff">
+            <h1>Meet the Vanta Tag Staff</h1>
+            <div class="staff-grid">
+                <div class="staff-member">
+                    <img src="images/placeholder.png" alt="Rewind">
+                    <h3>Rewind</h3>
+                    <p>Founder / Developer / Applab Manager</p>
+                </div>
+                <div class="staff-member">
+                    <img src="images/placeholder.png" alt="Toast / Rylan">
+                    <h3>Toast / Rylan</h3>
+                    <p>Founder’s Assistant / Content Creator</p>
+                </div>
+                <div class="staff-member">
+                    <img src="images/placeholder.png" alt="Wardon">
+                    <h3>Wardon</h3>
+                    <p>Co-Owner</p>
+                </div>
+                <div class="staff-member">
+                    <img src="images/placeholder.png" alt="Dev">
+                    <h3>Dev</h3>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vanta Tag | Made by Rewind</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta Tag | Rules / Policy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Vanta Tag</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="game.html">Game Info</a>
+            <a href="staff.html">Meet the Staff</a>
+            <a href="rules.html">Rules / Policy</a>
+            <a href="https://discord.gg/vantatag" target="_blank" class="discord-btn">Join Discord</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="rules">
+            <h1>Community Rules & Policies</h1>
+            <ul>
+                <li>Be kind and respectful to everyone.</li>
+                <li>No cheating or exploiting in-game mechanics.</li>
+                <li>Follow Discord community guidelines.</li>
+                <li>Harassment, spam, and harmful behavior are strictly prohibited.</li>
+                <li>Listen to staff members and moderators for guidance.</li>
+            </ul>
+            <p>Policies are subject to change as the community grows.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vanta Tag | Made by Rewind</p>
+    </footer>
+</body>
+</html>
